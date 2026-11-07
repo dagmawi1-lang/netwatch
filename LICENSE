@@ -1,21 +1,32 @@
-MIT License
+Permission Required License
 
-Copyright (c) 2026 Dagmawi Melaku
+Copyright (c) 2026 Dagmawi Melaku (https://github.com/dagmawi1-lang)
+All rights reserved.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+1. Ask first. You may not use, copy, modify, merge, publish, distribute,
+   sublicense, or sell this software or any part of it, in source or compiled
+   form, without prior written permission from the copyright holder. Request
+   permission by opening an issue on this repository or by contacting
+   Dagmawi Melaku through https://github.com/dagmawi1-lang.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+2. Give credit. If permission is granted, every use must give clear credit:
+   "Based on work by Dagmawi Melaku (https://github.com/dagmawi1-lang)", with a
+   link to the original repository, in your documentation and in any place
+   where you credit other authors. You must also keep this license and the
+   copyright notice in all copies or substantial portions of the software.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+3. Allowed without asking:
+   a. Viewing the code and forking it on GitHub, as allowed by GitHub's Terms
+      of Service. A fork does not grant any further rights.
+   b. Running, testing, and evaluating the software for the purpose of judging
+      or reviewing it in a competition, hackathon, class, application, or
+      admissions process it was submitted to.
+
+4. Permission given to one person or for one purpose does not extend to anyone
+   else or to any other purpose unless the written permission says so.
+
+5. No warranty. THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+   EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+   MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO
+   EVENT SHALL THE AUTHOR BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY
+   ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR ITS USE.
