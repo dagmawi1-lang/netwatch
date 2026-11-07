@@ -1,0 +1,1 @@
+pytest>=8  # tests only; NetWatch itself uses only the Python standard library

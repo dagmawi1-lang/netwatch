@@ -1,0 +1,116 @@
+{
+  "devices": [
+    {
+      "name": "edge-fw",
+      "kind": "firewall",
+      "ip": "10.0.0.1",
+      "mac": "00:1a:2b:00:00:01",
+      "parent": null,
+      "services": [
+        443
+      ],
+      "base_latency_ms": 1.0
+    },
+    {
+      "name": "core-sw",
+      "kind": "switch",
+      "ip": "10.0.0.2",
+      "mac": "00:1a:2b:00:00:02",
+      "parent": "edge-fw",
+      "services": [],
+      "base_latency_ms": 1.0
+    },
+    {
+      "name": "lab-sw",
+      "kind": "switch",
+      "ip": "10.0.1.2",
+      "mac": "00:1a:2b:00:01:02",
+      "parent": "core-sw",
+      "services": [],
+      "base_latency_ms": 1.5
+    },
+    {
+      "name": "wifi-ap",
+      "kind": "ap",
+      "ip": "10.0.2.2",
+      "mac": "00:1a:2b:00:02:02",
+      "parent": "core-sw",
+      "services": [],
+      "base_latency_ms": 2.0
+    },
+    {
+      "name": "web-srv",
+      "kind": "server",
+      "ip": "10.0.0.10",
+      "mac": "00:1a:2b:00:00:10",
+      "parent": "core-sw",
+      "services": [
+        80,
+        443,
+        22
+      ],
+      "base_latency_ms": 1.5
+    },
+    {
+      "name": "db-srv",
+      "kind": "server",
+      "ip": "10.0.0.11",
+      "mac": "00:1a:2b:00:00:11",
+      "parent": "core-sw",
+      "services": [
+        5432,
+        22
+      ],
+      "base_latency_ms": 1.5
+    },
+    {
+      "name": "lab-pc1",
+      "kind": "workstation",
+      "ip": "10.0.1.21",
+      "mac": "00:1a:2b:00:01:21",
+      "parent": "lab-sw",
+      "services": [],
+      "base_latency_ms": 2.5
+    },
+    {
+      "name": "lab-pc2",
+      "kind": "workstation",
+      "ip": "10.0.1.22",
+      "mac": "00:1a:2b:00:01:22",
+      "parent": "lab-sw",
+      "services": [],
+      "base_latency_ms": 2.5
+    },
+    {
+      "name": "printer",
+      "kind": "printer",
+      "ip": "10.0.1.30",
+      "mac": "00:1a:2b:00:01:30",
+      "parent": "lab-sw",
+      "services": [
+        9100
+      ],
+      "base_latency_ms": 3.0
+    },
+    {
+      "name": "camera",
+      "kind": "iot",
+      "ip": "10.0.2.40",
+      "mac": "00:1a:2b:00:02:40",
+      "parent": "wifi-ap",
+      "services": [
+        554
+      ],
+      "base_latency_ms": 6.0
+    },
+    {
+      "name": "laptop",
+      "kind": "workstation",
+      "ip": "10.0.2.50",
+      "mac": "00:1a:2b:00:02:50",
+      "parent": "wifi-ap",
+      "services": [],
+      "base_latency_ms": 5.0
+    }
+  ]
+}
