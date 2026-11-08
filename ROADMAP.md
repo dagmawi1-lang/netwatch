@@ -9,7 +9,7 @@
 - [x] Reports: Markdown and HTML with SVG latency sparklines
 - [x] 11 tests including zero false positives on quiet networks
 
-## Next
+## Planned improvements
 - [ ] Live mode: ICMP ping and TCP port checks against real hosts on a lab network
 - [ ] Import Zeek `conn.log` and `arp -a` output
 - [ ] Unexpected-service detection (traffic to ports a device doesn't offer)
