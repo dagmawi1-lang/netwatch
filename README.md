@@ -2,6 +2,16 @@
 
 NetWatch simulates a small network (firewall → switches → servers, workstations, IoT), records traffic and status into SQLite, and detects problems. It finds outages and traces them to a root cause, flags flapping links, latency and traffic anomalies, port scans, rogue devices, and IP/MAC conflicts.
 
+![Report with topology, findings, and severity](docs/screenshot.jpg)
+
+## My role & contributions
+
+**Solo developer · AI-assisted**
+
+- Designed the network topology and the incident scenarios to simulate
+- Chose root-cause grouping so one switch failure raises one alert, not five
+- Tuned anomaly thresholds so a quiet network produces zero findings across 3 random seeds
+
 **Languages:** Python · SQL (SQLite) · standard library only
 **Shows:** networking (topology, reachability, ports, ARP/MAC), security monitoring, statistics, and data management.
 
